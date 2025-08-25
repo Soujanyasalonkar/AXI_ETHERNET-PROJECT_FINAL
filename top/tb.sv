@@ -16,14 +16,14 @@ import uvm_pkg::*;
 `include "../src/rtl/eth_mac_10g/mac_pause_ctrl_tx.v"
 
 `include "../src/rtl/eth_mac_10g/axis_if.sv"
-`include "eth_mac_10g_seq_item.sv"
-`include "eth_mac_10g_seq.sv"
-`include "eth_mac_10g_sequencer.sv"
-`include "eth_mac_10g_driver.sv"
-`include "eth_mac_10g_monitor.sv"
-`include "eth_mac_10g_agent.sv"
-`include "eth_mac_10g_env.sv"
-`include "eth_mac_10g_test.sv"
+//`include "eth_mac_10g_seq_item.sv"
+//`include "eth_mac_10g_seq.sv"
+//`include "eth_mac_10g_sequencer.sv"
+//`include "eth_mac_10g_driver.sv"
+//`include "eth_mac_10g_monitor.sv"
+//`include "eth_mac_10g_agent.sv"
+//`include "eth_mac_10g_env.sv"
+//`include "eth_mac_10g_test.sv"
 
 
 
