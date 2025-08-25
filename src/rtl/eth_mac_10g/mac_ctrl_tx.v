@@ -23,7 +23,8 @@ module taxi_mac_ctrl_tx #
     parameter MCF_PARAMS_SIZE = 18,
 
     //---------------missing parameters added  by s --------------------------
-    parameter DATA_W = 8,
+   // parameter DATA_W = 8, commented by s
+    parameter DATA_W = 64,
     parameter KEEP_EN = DATA_W>8,
     parameter KEEP_W = DATA_W/8,
     parameter ID_EN = 0,
@@ -489,4 +490,5 @@ end
 endmodule
 
 `resetall
+
 
