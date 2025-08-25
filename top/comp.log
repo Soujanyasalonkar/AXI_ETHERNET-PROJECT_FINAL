@@ -1,0 +1,735 @@
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-sva' passed to 'vcs' and continuing compilation.
+
+Command: vcs -sverilog -timescale=1ns/1ns -sva -assert svaext+checker -ntb_opts uvm-1.1 \
++indir+. +incdir+../src/rtl tb.sv -l comp.log
+                         Chronologic VCS (TM)
+         Version Q-2020.03-SP2-8 -- Mon Aug 25 20:54:23 2025
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'indir+.' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+Parsing design file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_version_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/snps_macros.svp'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_message_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_phase_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_object_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_printer_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_tlm_defines.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_imps.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_tlm_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_sequence_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_callback_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_reg_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/macros/uvm_deprecated_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/directc/uvm_directc.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/directc/uvm_seed.vh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/directc/uvm_directc.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_hdl.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_regex.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_version.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_object_globals.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_misc.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_object.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_pool.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_queue.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_factory.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_registry.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_spell_chkr.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_resource.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/deprecated/uvm_resource_converter.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_resource_specializations.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_resource_db.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_config_db.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_printer.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_comparer.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_packer.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_recorder.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_event_callback.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_event.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_barrier.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_callback.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_callback.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_report_catcher.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_report_server.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_report_handler.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_report_object.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_transaction.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_phase.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_domain.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_bottomup_phase.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_topdown_phase.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_task_phase.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_common_phases.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_runtime_phases.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_component.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_root.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_component.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_objection.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_heartbeat.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_globals.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_cmdline_processor.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/base/uvm_port_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_imps.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_imps.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_ports.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_exports.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_analysis_port.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_sqr_connections.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_pair.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_policies.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_in_order_comparator.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_random_stimulus.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_subscriber.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_monitor.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_driver.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_push_driver.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_scoreboard.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_agent.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_env.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_test.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/comps/uvm_comps.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequence_item.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequencer_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequencer_param_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequencer.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_push_sequencer.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequence_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequence.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequence_library.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_sequence_builtin.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/seq/uvm_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_time.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_item.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_adapter.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_predictor.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_sequence.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_cbs.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_backdoor.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_field.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_vreg_field.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_indirect.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_fifo.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_file.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_mem_mam.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_vreg.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_mem.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_map.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_block.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/snps_uvm_reg_bank.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/vcs/vcs_uvm_alt.sv'.
+Back to file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing design file 'tb.sv'
+Parsing included file '/hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_macros.svh'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/eth_mac_10g.v'.
+
+Warning-[OSPA-O] Overriding same parameter again
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 253
+  Parameter "PTP_TAG_ENABLE" is being overridden again in instance override. 
+  The second will be ignored.
+
+
+Warning-[OSPA-O] Overriding same parameter again
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 254
+  Parameter "PTP_TAG_WIDTH" is being overridden again in instance override. 
+  The second will be ignored.
+
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/taxi_lfsr.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/mac_ctrl_rx.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/mac_ctrl_tx.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/mac_pause_ctrl_rx.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/mac_pause_ctrl_tx.v'.
+Back to file 'tb.sv'.
+Parsing included file '../src/rtl/eth_mac_10g/axis_if.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_seq_item.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_seq.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_sequencer.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_driver.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_monitor.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_agent.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_env.sv'.
+Back to file 'tb.sv'.
+Parsing included file 'eth_mac_10g_test.sv'.
+Back to file 'tb.sv'.
+Top Level Modules:
+       taxi_mac_ctrl_rx
+       taxi_mac_ctrl_tx
+       taxi_mac_pause_ctrl_rx
+       taxi_mac_pause_ctrl_tx
+       tb
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "DATA_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "KEEP_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "CTRL_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "PTP_TS_ENABLE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "PTP_TS_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+  Attempting to override undefined parameter "ID_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v, 267
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v, 267
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v, 267
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v, 267
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_rx_64.v, 267
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "DATA_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "KEEP_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "CTRL_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "ENABLE_PADDING", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "ENABLE_DIC", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "MIN_FRAME_LENGTH", will ignore 
+  it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "PTP_TS_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "PTP_TS_CTRL_IN_TUSER", will 
+  ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "PTP_TAG_ENABLE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "PTP_TAG_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+  Attempting to override undefined parameter "USER_WIDTH", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "LFSR_GALOIS", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_W", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_IN_EN", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../src/rtl/eth_mac_10g/axis_xgmii_tx_64.v, 359
+  Attempting to override undefined parameter "DATA_OUT_EN", will ignore it.
+
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 210
+genblk1, "taxi_axis_xgmii_rx_64 #(.DATA_WIDTH(DATA_WIDTH), .KEEP_WIDTH(KEEP_WIDTH), .CTRL_WIDTH(CTRL_WIDTH), .PTP_TS_ENABLE(PTP_TS_ENABLE), .PTP_TS_FMT_TOD(PTP_TS_FMT_TOD), .PTP_TS_WIDTH(PTP_TS_WIDTH), .USER_W(RX_USER_WIDTH), .ID_W(ID_W)) axis_xgmii_rx_inst( .clk (rx_clk),  .rst (rx_rst),  .xgmii_rxd (xgmii_rxd),  .xgmii_rxc (xgmii_rxc),  .m_axis_tdata (rx_axis_tdata_int),  .m_axis_tkeep (rx_axis_tkeep_int),  .m_axis_tvalid (rx_axis_tvalid_int),  .m_axis_tlast (rx_axis_tlast_int),  .m_axis_tuser (rx_axis_tuser_int),  .ptp_ts (rx_ptp_ts),  .cfg_rx_enable (cfg_rx_enable),  .rx_start_packet (rx_start_packet),  .rx_error_bad_frame (rx_error_bad_frame),  .rx_error_bad_fcs (rx_error_bad_fcs));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../src/rtl/eth_mac_10g/eth_mac_10g.v, 256
+genblk1, "taxi_axis_xgmii_tx_64 #(.DATA_WIDTH(DATA_WIDTH), .KEEP_WIDTH(KEEP_WIDTH), .CTRL_WIDTH(CTRL_WIDTH), .ENABLE_PADDING(ENABLE_PADDING), .ENABLE_DIC(ENABLE_DIC), .MIN_FRAME_LENGTH(MIN_FRAME_LENGTH), .PTP_TS_ENABLE(PTP_TS_ENABLE), .PTP_TS_FMT_TOD(PTP_TS_FMT_TOD), .PTP_TS_WIDTH(PTP_TS_WIDTH), .PTP_TS_CTRL_IN_TUSER((MAC_CTRL_ENABLE ? PTP_TS_ENABLE : TX_PTP_TS_CTRL_IN_TUSER)), .PTP_TAG_ENABLE(TX_PTP_TAG_ENABLE), .PTP_TAG_WIDTH(TX_PTP_TAG_WIDTH), .USER_WIDTH(TX_USER_WIDTH_INT), .ID_W(ID_W)) axis_xgmii_tx_inst( .clk (tx_clk),  .rst (tx_rst),  .s_axis_tdata (tx_axis_tdata_int),  .s_axis_tkeep (tx_axis_tkeep_int),  .s_axis_tvalid (tx_axis_tvalid_int),  .s_axis_tready (tx_axis_tready_int),  .s_axis_tlast (tx_axis_tlast_int),  .s_axis_tuser (tx_axis_tuser_int),  .xgmi ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+tb.sv, 144
+tb, "eth_mac_10g #(.DATA_WIDTH($unit::DATA_WIDTH), .KEEP_WIDTH(($unit::DATA_WIDTH / 8)), .CTRL_WIDTH(($unit::DATA_WIDTH / 8)), .ENABLE_PADDING(1), .ENABLE_DIC(1), .MIN_FRAME_LENGTH(64), .PTP_TS_ENABLE(0), .PTP_TS_FMT_TOD(1), .PTP_TS_WIDTH(96), .TX_PTP_TS_CTRL_IN_TUSER(0), .TX_PTP_TAG_ENABLE(0), .TX_PTP_TAG_WIDTH(16), .TX_USER_WIDTH(1), .RX_USER_WIDTH(1), .PFC_ENABLE(0), .PAUSE_ENABLE(0)) dut( .tx_clk (tb_tx_clk),  .tx_rst (tb_tx_rst),  .rx_clk (tb_rx_clk),  .rx_rst (tb_rx_rst),  .tx_axis_tdata (axis_if.tdata),  .tx_axis_tkeep (axis_if.tkeep),  .tx_axis_tvalid (axis_if.tvalid),  .tx_axis_tready (axis_if.tready),  .tx_axis_tuser (axis_if.tuser),  .xgmii_rxd (axis_if.xgmii_rxd),  .xgmii_rxc (axis_if.xgmii_rxc),  .xgmii_txd (axis_if.xgmii_txd),  .xgmii_txc (axis ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Error-[MFNF] Member not found
+eth_mac_10g_driver.sv, 27
+"this.axis_if."
+  Could not find member 'rx_clk' in interface 'taxi_axis_if', at 
+  "../src/rtl/eth_mac_10g/axis_if.sv", 11.
+  Instance stack trace:
+      $unit  
+  /hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv,
+  1
+  
+
+
+Error-[MFNF] Member not found
+eth_mac_10g_driver.sv, 29
+"this.axis_if."
+  Could not find member 'rx_clk' in interface 'taxi_axis_if', at 
+  "../src/rtl/eth_mac_10g/axis_if.sv", 11.
+  Instance stack trace:
+      $unit  
+  /hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv,
+  1
+  
+
+
+Error-[MFNF] Member not found
+eth_mac_10g_driver.sv, 31
+"this.axis_if."
+  Could not find member 'rx_clk' in interface 'taxi_axis_if', at 
+  "../src/rtl/eth_mac_10g/axis_if.sv", 11.
+  Instance stack trace:
+      $unit  
+  /hwetools/synosys/installed_tools/vcs/Q-2020.03-SP2-8/etc/uvm-1.1/uvm_pkg.sv,
+  1
+  
+
+
+Error-[MFNF] Member not found
+eth_mac_10g_monitor.sv, 28
+"this.axis_if."
+  Could not find member 'rx_clk' in interface 'taxi_axis_if', at 
+  "../src/rtl/eth_mac_10g/axis_if.sv", 11.
+  
+
+68 warnings
+4 errors
+CPU time: 1.883 seconds to compile
