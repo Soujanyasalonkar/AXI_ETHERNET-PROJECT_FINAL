@@ -12,8 +12,8 @@ import uvm_pkg::*;
 `include "../src/rtl/eth_mac_10g/taxi_lfsr.v"
 `include "../src/rtl/eth_mac_10g/mac_ctrl_rx.v"
 `include "../src/rtl/eth_mac_10g/mac_ctrl_tx.v"
-`include "../src/rtl/eth_mac_10g/mac_pause_ctrl_rx.v"
-`include "../src/rtl/eth_mac_10g/mac_pause_ctrl_tx.v"
+//`include "../src/rtl/eth_mac_10g/mac_pause_ctrl_rx.v"
+//`include "../src/rtl/eth_mac_10g/mac_pause_ctrl_tx.v"
 
 `include "../src/rtl/eth_mac_10g/axis_if.sv"
 //`include "eth_mac_10g_seq_item.sv"
